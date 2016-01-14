@@ -4,7 +4,8 @@ OFAC - is a wing of the US Dept. of Treasury that manages trade sanctions. The o
 This list very often contains identities defined in Arabic language.
 
 
-The shell scripts 
-	-Scans the pusblished txt files of banned identities on the web 
-	-Parses and tokenizes details to create a repository of identities
-	-Delta processing is included, where only deltas are scanned to update the dictionary.
+The shell scripts does the following:
+
+1. Scans the pusblished txt files of banned identities on the web 
+2. Parses and tokenizes details to create a repository of identities
+3. Delta processing is included, where only deltas are scanned to update the dictionary.
